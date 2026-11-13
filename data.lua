@@ -1,0 +1,5 @@
+require("prototypes.collision")
+require("prototypes.entity")
+require("prototypes.item-recipe")
+require("prototypes.technology")
+require("prototypes.visuals")

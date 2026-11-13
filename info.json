@@ -1,0 +1,12 @@
+{
+  "name": "energy-shield-dome",
+  "version": "0.1.0",
+  "factorio_version": "2.1",
+  "title": "Energy Shield Dome",
+  "author": "KotoKi",
+  "description": "A Fulgora-built shield generator that grows an energy dome over your base. The dome is a wall, not a turret: enemies and their acid cannot pass, your shots fly out freely. Deploying, holding and absorbing hits all cost power; if your grid cannot keep up, the dome collapses. An electric field zaps enemies just outside the edge.",
+  "dependencies": [
+    "base >= 2.1.0",
+    "space-age >= 2.1.0"
+  ]
+}

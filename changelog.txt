@@ -1,0 +1,20 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.1.0
+Date: 2026-11-13
+  Major Features:
+    - Initial release: Energy shield generator (7x7) that grows a dome barrier over your base.
+    - The dome stops enemies and their attacks; players, vehicles and your own projectiles pass freely.
+    - Deploying, upkeep and every absorbed hit cost power. If the pool runs dry or one hit is bigger than the buffer, the dome collapses and recharges.
+    - Electric field outside the edge damages enemies (half damage to nests and worms); boosted by electric weapons damage research.
+    - Up to 4 generators can power one dome (map setting 1-8): energy is shared and the maximum radius grows with the square root of their number.
+    - Technologies: Energy shield dome, Dome radius 1-3 and infinite Dome radius.
+  Features:
+    - Generator window: radius slider, on/off, electric field on/off and field reserve slider, buffer, upkeep and combat statistics.
+    - Combat statistics (kills, damage dealt, damage absorbed) in the entity status.
+    - Map view toggle (shortcut / Ctrl+Shift+D): generators, dome edges, field zones and hit flashes.
+    - "Under attack" and "collapsed" alerts, can be turned off per player.
+    - Enemy acid streams aimed at the dome are stopped at the edge.
+    - Overlapping but separate domes are drawn as one merged bubble.
+    - Quality raises buffer, charging rate (legendary: 1 GW), radius and field width.
+    - Settings are kept in blueprints and copied with Shift+click.
+    - Fulgora: the dome cannot deploy. Vulcanus and Aquilo: not available yet. Space platforms: not allowed.
